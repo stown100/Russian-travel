@@ -1,0 +1,19 @@
+.cover {
+    color: #FFFFFF;
+    font-family: 'Inter', Arial, sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        max-height: 200px;
+        padding-top: 66px;
+    }
+}
