@@ -5,20 +5,20 @@
     justify-content: space-between;
     grid-auto-flow: column;
     align-items: center;
-    padding: 92px 48px 24px 48px;
+    margin: 92px auto 24px;
     margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
     .footer {
         max-width: 928px;
-        padding: 92px 48px 24px 48px;
+        margin: 92px auto 24px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .footer {
-        padding: 88px 24px 24px;
+        margin: 88px auto 24px;
         max-width: 720px;
     }
 }
@@ -28,9 +28,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 16px;
-        padding-right: 118px;
+        max-width: 186px;
+        margin: 64px 118px 24px 16px;
     }
 }
