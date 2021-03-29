@@ -3,8 +3,10 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    grid-area: header;
-    margin: 28px auto 0;
+    /*grid-area: header;*/
+    margin: 0 auto;
+    padding: 28px 48px 0;
+    max-width: 1280px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,12 +18,14 @@
 @media screen and (max-width: 768px) {
     .header {
         max-width: 720px;
+        margin: 0;
+        padding: 28px 24px 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .header {
         max-width: 288px;
-        margin: 16px 16px 0 16px;
+        padding: 16px 16px 0 16px;
     }
 }
