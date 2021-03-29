@@ -1,11 +1,5 @@
 .page {
     background-color: #2A2C2F;
-    /*display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-template-areas: 
-    'header'
-    'content'
-    'footer';*/
     font-family: 'Inter', 'Arial', 'sans-serif';
     min-width: 320px;
     color: #FFF;

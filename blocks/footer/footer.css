@@ -1,12 +1,10 @@
 .footer {
-    /*grid-area: footer;*/
     width: 1184px;
     display: grid;
     justify-content: space-between;
     grid-auto-flow: column;
     align-items: center;
     margin: 92px auto 24px;
-    margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,7 +21,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 640px) {
     .footer {
         display: flex;
         flex-direction: column;
