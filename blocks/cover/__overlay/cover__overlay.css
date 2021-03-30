@@ -12,6 +12,7 @@
     color: inherit;
     z-index: 1;
     height: 740px;
+    padding: 0;
 }
 
 .cover__overlay::after {
