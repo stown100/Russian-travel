@@ -1,0 +1,101 @@
+.cover {
+    color: #FFFFFF;
+    font-family: 'Inter', Arial, sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.cover__overlay {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 16px 20px;
+    background-image: url(./russian-travel/images/cover-trains.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: inherit;
+    z-index: 1;
+    height: 740px;
+}
+
+.cover__overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    z-index: -1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.cover__overlay:hover::after {
+    opacity: 0.8;
+}
+
+.cover__title {
+    margin: 0 auto;
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: 900;
+    max-width: 560px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.cover__subtitle {
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    text-align: center;
+    max-width: 360px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .cover__overlay {
+        display: block;
+        background-size: 768px 480px;
+        padding-top: 115px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        padding-bottom: 16px;
+        padding-top: 33px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        max-width: 288px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__overlay {
+        padding: 0;
+        display: block;
+        background-size: 320px 200px;
+        max-height: 200px;
+    }
+}

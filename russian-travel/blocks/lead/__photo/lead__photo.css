@@ -1,0 +1,10 @@
+.lead__photo {
+    display: grid;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__photo {
+        max-width: 928px;
+    }
+}
