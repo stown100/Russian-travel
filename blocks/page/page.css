@@ -5,6 +5,7 @@
     color: #FFF;
     margin: 0 auto;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 768px) {

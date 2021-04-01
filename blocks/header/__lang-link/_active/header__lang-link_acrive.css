@@ -1,13 +1,10 @@
-.header__lang-link {
+.header__lang-link_active {
     font-size: 24px;
     line-height: 28px;
-    text-decoration: none;
-    margin-left: 18px;
-    color: #FFF;
 }
 
 @media screen and (max-width: 320px) {
-    .header__lang-link {
+    .header__lang-link_active {
         max-width: 22px;
         font-size: 18px;
         line-height: 20px;
