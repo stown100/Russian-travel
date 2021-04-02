@@ -12,12 +12,6 @@
     padding-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
-    .place:hover {
-        padding-bottom: 0;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .place {
         gap: 28px;
